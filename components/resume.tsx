@@ -23,6 +23,26 @@ const educationData = [
 
 const experienceData = [
   {
+    title: "Software Engineer",
+    subtitle: "HubSpot, Toronto, ON",
+    duration: "Dec 2025 – Oct 2026",
+    content: [
+      "Built a platform for offline evaluation of an AI sales chatbot using asynchronous Java workers and a dashboard for comparing prompts and models, parallelizing 188-scenario runs to cut runtime from 105 to 10.8 minutes",
+      "Migrated legacy chatbot capabilities to an LLM-based sales agent, integrating product and CRM APIs for product information, meeting booking, and lead capture, with Braintrust tracing supporting shadow evaluation",
+      "Developed the UI for suggested opening questions and contextual next-step actions using React, helping visitors engage with the AI sales assistant and contributing to 10% higher engagement and doubled quick-reply usage",
+      "Built an agent tool that turned prospects’ comparison questions into interactive slide decks, rendering structured LLM output through branded HTML templates, storing presentations in S3, and embedding them directly in chat",
+    ],
+  },
+  {
+    title: "Associate Full Stack Software Engineer",
+    subtitle: "Manulife, Waterloo, ON",
+    duration: "June 2025 – Nov 2025",
+    content: [
+      "Engineered a comprehensive undo system for an internal network-request application by building new Python API endpoints with validation and reversible action logic, enabling safe rollback of changes",
+      "Developed polished React interfaces, including modals, popups, and deployment-history components, to deliver a seamless undo workflow, improving usability and accelerating error correction for internal teams",
+    ],
+  },
+  {
     title: "Software Developer in Test Intern",
     subtitle: "Sony Interactive Entertainment | PlayStation, Waterloo, ON",
     duration: "May 2024 ‑ Dec 2024",
@@ -288,4 +308,3 @@ export function Resume() {
     </section>
   )
 }
-
